@@ -1,5 +1,5 @@
 # CS3100 2024 Assn1 Java Compiling
-
+## Rylei Mindrum | A02352206
 ## Assignment 1
 The purpose of this assignment is to get you familiarized with compiling and running a Java program from the command line. 
 The specific way this will be done is that you will develop a program that accepts command line arguments to tell it how to 
@@ -59,7 +59,7 @@ invalid input is given, then print the help instructions as given above and igno
 
 ## Additional Notes
 Valid input ranges:
-- Fibonacci input range is is: 0 to 40
+- Fibonacci input range is: 0 to 40
 - Factorial input range is: 0 to largest Java Integer
 - Iterations range for the 'e' [n] parameter is: 1 to largest Java Integer
 
