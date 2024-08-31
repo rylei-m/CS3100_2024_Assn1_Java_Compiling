@@ -1,4 +1,4 @@
-# CS3100 2024 Assn1 Java Compiling
+# CS3100 2024 Assign1 Java Compiling
 ## Rylei Mindrum | A02352206
 ## Assignment 1
 The purpose of this assignment is to get you familiarized with compiling and running a Java program from the command line. 
