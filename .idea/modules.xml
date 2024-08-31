@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CS3100_2024_Assn1_Java_Compiling.iml" filepath="$PROJECT_DIR$/.idea/CS3100_2024_Assn1_Java_Compiling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FuncsFor2/FuncsFor2.iml" filepath="$PROJECT_DIR$/FuncsFor2/FuncsFor2.iml" />
     </modules>
   </component>
 </project>
