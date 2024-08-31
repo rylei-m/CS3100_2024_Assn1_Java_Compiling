@@ -4,11 +4,7 @@
 The purpose of this assignment is to get you familiarized with compiling and running a Java program from the command line. 
 The specific way this will be done is that you will develop a program that accepts command line arguments to tell it how to 
 compute either a Fibonacci number, a factorial, and/or the value of the number 'e'., depending on the input given.
-
-## NOTICE:
-Before running math commands run: **javac Assign1.java**
-
-This ensures that the file is compiled for java. 
+ 
 ## Instructions
 Implement a program that computes the Fibonacci of a specified number, the factorial of a specified number, and/or
 estimates the value of 'e' using the specified number of iterations (of a Taylor series) based on specific inputs.  
