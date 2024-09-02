@@ -49,19 +49,6 @@ public class Assign1 {
         }
     }
 
-
-
-    public static BigDecimal valE(int iterations) {
-        BigDecimal e = BigDecimal.ONE;
-        BigDecimal factorial = BigDecimal.ONE;
-
-        for (int i = 1; i <= iterations; i++) {
-            factorial = factorial.multiply(BigDecimal.valueOf(i));
-            e = e.add(BigDecimal.ONE.divide(factorial, 25, RoundingMode.HALF_UP));
-        }
-        return e;
-    }
-
     public static void printHelp() {
         System.out.println("--- Assign 1 Help ---");
         System.out.println("  -fib [n] : Compute the Fibonacci of [n]; valid range [0, 40]");
