@@ -21,7 +21,50 @@ public class Assign1 {
                         break;
 
                     case "-fac":
-                        int facNum = Integer.parseInt(args[++i]);
+
+    public static int fibonacci(int var0) {
+        int var1 = 0;
+        int var2 = 1;
+
+        for(int var4 = 2; var4 <= var0; ++var4) {
+            int var3 = var1 + var2;
+            var1 = var2;
+            var2 = var3;
+        }
+
+        return var2;
+    }
+
+    public static BigInteger factorial(int var0) {
+        BigInteger var1 = BigInteger.ONE;
+
+        for(int var2 = 2; var2 <= var0; ++var2) {
+            var1 = var1.multiply(BigInteger.valueOf((long)var2));
+        }
+
+        return var1;
+    }
+
+    public static BigDecimal valE(int var0) {
+        BigDecimal var1 = BigDecimal.ONE;
+        BigDecimal var2 = BigDecimal.ONE;
+
+        for(int var3 = 1; var3 <= var0; ++var3) {
+            var2 = var2.multiply(BigDecimal.valueOf((long)var3));
+            var1 = var1.add(BigDecimal.ONE.divide(var2, 25, RoundingMode.HALF_UP));
+        }
+
+        return var1;
+    }
+
+    public static void printHelp() {
+        System.out.println("--- Assign 1 Help ---");
+        System.out.println("  -fib [n] : Compute the Fibonacci of [n]; valid range [0, 40]");
+        System.out.println("  -fac [n] : Compute the factorial of [n]; valid range, [0, 2147483647]");
+        System.out.println("  -e [n] : Compute the value of 'e' using [n] iterations; valid range [1, 2147483647]");
+    }
+}
+         int facNum = Integer.parseInt(args[++i]);
                         if (facNum < 0) {
                             System.out.println("Factorial valid range is [0, 2147483647]");
                         } else {
