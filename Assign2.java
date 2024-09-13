@@ -1,8 +1,4 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
-
-public class Assign1 {
+public class Assign2 {
     public static void main(String[] args) {
         if (args.length == 0) {
             printHelp();
